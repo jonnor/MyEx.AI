@@ -110,55 +110,65 @@ Crytoigraphy toolkit for kids.
 Ask the question: Do you want this to be real?
 
 
-## Script ideas
-Video length. 60 seconds?
+## Video
+Video length. As short as possible... 60 seconds?
 
-Problem
-Solution
-Demo
-Call-to-action
-Reveal
+### Storyarc
+
+- "Problem"
+- Solution
+- Demo (show its 'real')
+- Call-to-action for fake product
+- Reveal
+- Call-to-action data protection informational
+
+### Script
+Text: Narrator
+--: shown on screen
 
 
 Did your girlfriend just break up with you?
-Or maybe the boy of your dreams never wanted to be more than just a friend.
+Or maybe the boy of your dreams only wanted to be friends.
 
 Don't be lonely anymore!
 Use aipartner.app to create an Artificial Intelligence of the person.
+-- ?
 
 Signing up is super easy.
 You just type in the persons name,
 link their public profiles,
 and upload the conversations you have had together on Facebook, WhatsApp etc.
 You don't even need their permission!
--- upload,processing
+-- app: signup,upload
 
-From their data we build up an AI matching their personality.
-Using Machine Learning infer their communication style, their interests and preferences.
+Using Machine Learning on their data we build up an AI matching their personality,
+communication style, interests and preferences.
 Everything comes from the online data: likes, status updates, posted pictures and conversations.
--- sliders
+-- app: processing,personality sliders
 
 Of course you can also change the persons traits, to make them behave more to your liking.
--- change sliders 
+-- app: change sliders
 
-Via the app, you can chat with your AI partner.
+You can chat with your AI partner.
 It can smalltalk, support you when you are down and help you make decisions.
--- where to eat (hint: monetization,sponsored ad)
+-- app: chat, where to eat (hint: monetization,sponsored ad)
 
 Using face transfer algorithms, your partner can also send you new pictures of themselves.
--- at the gym, working out
+-- app chat, at the gym, working out (PIC)
 
 There is no limit to the possibilities.
--- Cencored dirty pic
+-- app chat, cencored/suggestive dirty/edgy pic
 
-Sign up today!
 
--- switch to reveal
-This is not a real startup, but it could have been!
+-- Sign up today!
+
+-- Fade out
+-- Switch to reveal
+This is not a real startup (but it could have been)!
 Much of the technology is available today.
-Learn more about protecting your online data and the state of Machine Learning at .... 
+Learn more about protecting your online data and the state of Machine Learning at
 
-
+--   aipartner.app/learn
 
 
 ## In-app ideas
