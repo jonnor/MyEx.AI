@@ -2,6 +2,14 @@
     padding: 20px;
 }
 
+.profilepic {
+    padding: 10px;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .slider {
     -webkit-appearance: none;
     width: 100%;
