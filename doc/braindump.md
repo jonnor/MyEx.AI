@@ -43,23 +43,31 @@ Bring people to informational/howto on personal data management.
 
 Milestones
 
-### M1: Skeleton app ready
-Shows concept ROUGHLY. End2end wireframes. Runs locally.
-Thursday 1400
-
-* Add intro screen. Name of user, upload data
-* Presentation: Slide with 'what do you think about this'
-* Find informational/howto resources on data/privacy management
-
-
 ### M2: Draft ready
 Can be presented internally for feedback.
-Thurday 1800
+Thurday 1930
 
-* Add delay to message playback
-* In-app script done
+General
+
+* Find informational/howto resources on data/privacy management
+
+App
+
+* Add support for images in chat
+* Add an get-started screen. Name of user, upload data
+
+Video
+
+* S
+* Personality sliders mockup?
 * Initial demo videos recorded
-* Website shows video
+
+Presentation
+
+* Intro
+* Video, play button
+* Outro
+
 
 ### M3: Presentation ready
 Can be presented to the world at conference.
@@ -68,7 +76,7 @@ Is available on final domain.
 Friday 11.00.
 
 * Test on final domain
-* Rename repo to reflect project
+* Rename repo to reflect project title
 * Update README.md
 
 
@@ -114,8 +122,8 @@ Crytoigraphy toolkit for kids.
 Ask the question: Do you want this to be real?
 
 
-## Video
-Video length. As short as possible... 60 seconds?
+## Story
+
 
 ### Storyarc
 
@@ -130,6 +138,7 @@ Video length. As short as possible... 60 seconds?
 Text: Narrator
 --: shown on screen
 
+## Intro
 
 Did your girlfriend just break up with you?
 Or maybe the boy of your dreams only wanted to be friends.
@@ -137,6 +146,8 @@ Or maybe the boy of your dreams only wanted to be friends.
 Don't be lonely anymore!
 Use aipartner.app to create an Artificial Intelligence of the person.
 -- ?
+
+### Video
 
 Signing up is super easy.
 You just type in the persons name,
@@ -166,7 +177,8 @@ There is no limit to the possibilities.
 
 -- Sign up today!
 
--- Fade out
+## Outro
+
 -- Switch to reveal
 This is not a real startup (but it could have been)!
 Much of the technology is available today.
