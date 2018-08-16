@@ -5,29 +5,32 @@ import React from 'react';
 
 import {Messages,ChatInput,ChatApp} from './components.js';
 
-import fbMessages from '../data/message.json';
+const script = require('json-loader!yaml-loader!../data/scripts/basic.yaml');
 
 
 // App logic
 function handleEvent(name, payload, sender) {
     console.log('event', name, payload);
 
-    console.log('fb', fbMessages);
-
-    const exName = 'Marianna Brilliantova'; // FIXME: unhardcode
-    const isFromEx = (m) => m.sender_name == exName;
+    //console.log('fb', fbMessages);
+    console.log('data', script);
 
     // FIXME: look up in props
-    const messages = fbMessages.messages.filter(isFromEx);
+    const messages = script.messages;
 
-    const pickIdx = Math.floor(Math.random()*messages.length);
-    const picked = messages[pickIdx];
+    for (var message of messages) {
+   
+        const isUser = (message.role == 'user')
+        console.log('m', message, isUser);
 
-    const response = { name: exName, message: picked.content, isFromMe: false };
-
-    console.log('r', pickIdx, response);
-
-    sender.addMessage(response);
+        // TODO: also support images
+        const mes = {
+            name: isUser ? script.names.user : script.names.bot,
+            message: message.text,
+            fromMe: isUser,
+        };
+        sender.addMessage(mes);
+    }
 }
 
 
@@ -76,7 +79,7 @@ class App extends React.Component {
 
 }
 App.defaultProps = {
-    fbMessages: fbMessages,
+    //fbMessages: fbMessages,
     onEvent: handleEvent,
 };
 

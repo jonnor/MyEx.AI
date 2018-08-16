@@ -55,6 +55,10 @@ function getDefaultModules() {
       {
         test: /\.(json)$/,
         loader: 'json-loader'
+      },
+      {
+        test: /\.(yaml|yml)$/,
+        loader: 'yaml-loader'
       }
     ]
   };
