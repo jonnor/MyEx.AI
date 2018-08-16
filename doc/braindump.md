@@ -18,6 +18,7 @@ Making the experience emotional:
 * Allow to have basic interactions with 'the person'
 * Bring up some intimate details from past conversations. An edgy statement,picture etc
 * Allow to change the personality of 'the person'. Slider
+* Match the ex to a (group of) active people online (Instagram etc), and use their photos with face transfer
 
 Bring people to informational/howto on personal data management.
 
@@ -28,16 +29,15 @@ Bring people to informational/howto on personal data management.
 
 ### Minimal Viable Product
 
-* Website presenting 'the product'
-* Allow to "sign up", by login in with
-* Presents a 'produced AI' of the service
-* Allows to do some simple interaction
-
+* Demoapp. Core: Interact with your virtual GF/ex.
+* Demoapp. Realism: upload-data 
+* Demo video, showing app usage with mixed real/scripted content
+* Ask the question: Do you want this?
+* Website showing video demo of app
 
 ### Open questions
 
-* Support real Facebook login, or guide/fake it?
-* Track conversion towards the informational resources
+* Track conversion towards the informational resources?
 
 ## TODO
 
@@ -109,3 +109,9 @@ John Oliver
 Crytoigraphy toolkit for kids.
 
 Ask the question: Do you want this to be real?
+
+
+## Impl notes
+
+photos: Array(1)
+  uri:  "messages/MariannaBrilliantova_72523643b2/photos/38256515_10160902122945413_1473622602315464704_n_10160902122040413.jpg"
