@@ -140,16 +140,12 @@ Ask the question: Do you want this to be real?
 Text: Narrator
 --: shown on screen
 
-## Intro
+### Story
+Girl breaks up with guy.
+Guy would love to continue the relationship
+Facebook status changed
+Guy gets target ad (suggested post) for MyEx.AI
 
-We are putting more and more data about ourself and our relationships online.
-Have you thought about what one can build with this data? Beyond targeted ads etc
-
-During this hackathon we built an app that lets you create
-an interactive Artificial Intelligence of a person.
-
-Maybe your girlfriend just break up with you? But you want to continue the relationship.
-Or maybe the boy of your dreams only wanted to be friends, and you want more.
 
 ### Video
 
@@ -205,6 +201,8 @@ Overall easy to follow
 Improve the punch
 
 Want a story
+
+
 Video of someone who breaks up with someone
 Upset, go to computer
 Relationship status change -> do you want to keep this relationship?
