@@ -58,8 +58,7 @@ Thurday 1800
 
 * Add delay to message playback
 * In-app script done
-* Voiceover done
-* Initial video recorded
+* Initial demo videos recorded
 * Website shows video
 
 ### M3: Presentation ready

@@ -8,29 +8,58 @@ import {Messages,ChatInput,ChatApp} from './components.js';
 const script = require('json-loader!yaml-loader!../data/scripts/basic.yaml');
 
 
+// TODO:
+// Button to load/play different scripts
+
+function chatMessageFromScript(message) {
+    const isUser = (message.role == 'user')
+
+    // TODO: also support images
+    const mes = {
+        name: isUser ? script.names.user : script.names.bot,
+        message: message.text,
+        fromMe: isUser,
+    };
+    return mes;
+}
+
+function playbackScript(script, sendFunc, callback) {    
+
+    const delayAvg = 500;
+    const delayStd = 1000;
+
+    console.log('playback script', script);
+
+    const messages = Array.from(script.messages);
+    const next = () => {
+        console.log('script next');
+        if (messages.length == 0) {
+            return callback();
+        }
+        const m = messages.shift(); 
+        sendFunc(m);
+        const delay = delayAvg + (Math.random()-0.5)*delayStd;
+        console.log('d', delay);
+        return setTimeout(next, delay);
+    }
+    next();
+}
+
 // App logic
 function handleEvent(name, payload, sender) {
     console.log('event', name, payload);
 
-    //console.log('fb', fbMessages);
-    console.log('data', script);
 
     // FIXME: look up in props
-    const messages = script.messages;
-
-    for (var message of messages) {
-   
-        const isUser = (message.role == 'user')
-        console.log('m', message, isUser);
-
-        // TODO: also support images
-        const mes = {
-            name: isUser ? script.names.user : script.names.bot,
-            message: message.text,
-            fromMe: isUser,
-        };
-        sender.addMessage(mes);
+    const sendScriptMessage = (m) => {
+        sender.addMessage(chatMessageFromScript(m));
     }
+
+    console.log('script play');
+    playbackScript(script, sendScriptMessage, () => {
+        console.log('script done');
+    })
+
 }
 
 
