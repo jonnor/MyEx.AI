@@ -1,3 +1,7 @@
+.fieldset {
+    padding: 20px;
+}
+
 .slider {
     -webkit-appearance: none;
     width: 100%;

@@ -1,7 +1,7 @@
 
 .form-heading { color:#fff; font-size:23px;}
 
-.panel h2{ color:#444444; font-style: italic; font-size:18px; margin:0 0 8px 0;}
+.panel h2 { color:#444444; font-style: italic; font-size:18px; margin:0 0 8px 0;}
 
 .panel p { color:#777777;  font-size:14px; line-height:24px;}
 
@@ -25,6 +25,7 @@
   margin-bottom:3px;
 }
 .login-form{ text-align:center;}
+
 .forgot a {
   color: #777777;
   font-size: 14px;
