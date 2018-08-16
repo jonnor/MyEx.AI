@@ -140,12 +140,13 @@ Text: Narrator
 
 ## Intro
 
-Did your girlfriend just break up with you?
+Have you thought about what could be built with the data that we put online about ourself?
+
+During this hackathon we built an AI that lets you create an Artificial Intelligence of a person.
+
+Maybe your girlfriend just break up with you? But you want to contiue the relationship.
 Or maybe the boy of your dreams only wanted to be friends.
 
-Don't be lonely anymore!
-Use aipartner.app to create an Artificial Intelligence of the person.
--- ?
 
 ### Video
 
@@ -174,17 +175,17 @@ Using face transfer algorithms, your partner can also send you new pictures of t
 There is no limit to the possibilities.
 -- app chat, cencored/suggestive dirty/edgy pic
 
-
--- Sign up today!
+So sign up today!
 
 ## Outro
 
 -- Switch to reveal
 This is not a real startup (but it could have been)!
 Much of the technology is available today.
-Learn more about protecting your online data and the state of Machine Learning at
 
---   aipartner.app/learn
+- is it OK to build a digital representation of a person without their consent
+- who has got data about you that you are not comfortable with
+- who can use shared data, after you a relationship has ended, or someone has passed away
 
 
 ## In-app ideas
