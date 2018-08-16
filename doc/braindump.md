@@ -43,25 +43,31 @@ Bring people to informational/howto on personal data management.
 
 Milestones
 
-### M1: Skeleton webpage ready
-Shows concept ROUGHLY. End2end wireframes. Runs locally.
-Wednesday.
-
-* Decide content structure
-* Setup app structure
-* Rough content available for each
-* Find informational/howto resources on data/privacy management
-* Entire flow implemented
-
-
 ### M2: Draft ready
 Can be presented internally for feedback.
-Is available online.
-Thurday 16.00.
+Thurday 1930
 
-* Setup deploy to web
-* All content done
-* 
+General
+
+* Find informational/howto resources on data/privacy management
+
+App
+
+* Add support for images in chat
+* Add an get-started screen. Name of user, upload data
+
+Video
+
+* S
+* Personality sliders mockup?
+* Initial demo videos recorded
+
+Presentation
+
+* Intro
+* Video, play button
+* Outro
+
 
 ### M3: Presentation ready
 Can be presented to the world at conference.
@@ -70,17 +76,22 @@ Is available on final domain.
 Friday 11.00.
 
 * Test on final domain
-* Rename repo to reflect project
+* Rename repo to reflect project title
 * Update README.md
 
 
 ## Content
 
+Google knows where you have been, everything you have ever searched and deleted. Managing to gain access to someone’s Google account lets you have a diary of everything that person has done. Knows your workout routine, how many steps you have made, every mail you ever sent and there is more.
+
+Facebook has an option to download all your information. It stores everything, from messages to your login location. 
+Facebook also stores what it think you might be interested in based off the things you have liked and what you and your friends talk about
+They also store every time you log into Facebook, where you logged in from, what time, and from what device.
 ...
 
 ## Related
 
-
+https://www.indy100.com/article/facebook-google-cambridge-analytica-dylan-curran-twitter-how-to-download-your-data-8275511
 * Chatbot of dead person/friend. Luca
 * AI replica of yourself. replika.ai
 * ..
@@ -111,7 +122,81 @@ Crytoigraphy toolkit for kids.
 Ask the question: Do you want this to be real?
 
 
-## Impl notes
+## Story
 
-photos: Array(1)
-  uri:  "messages/MariannaBrilliantova_72523643b2/photos/38256515_10160902122945413_1473622602315464704_n_10160902122040413.jpg"
+
+### Storyarc
+
+- "Problem"
+- Solution
+- Demo (show its 'real')
+- Call-to-action for fake product
+- Reveal
+- Call-to-action data protection informational
+
+### Script
+Text: Narrator
+--: shown on screen
+
+## Intro
+
+Have you thought about what could be built with the data that we put online about ourself?
+
+During this hackathon we built an AI that lets you create an Artificial Intelligence of a person.
+
+Maybe your girlfriend just break up with you? But you want to contiue the relationship.
+Or maybe the boy of your dreams only wanted to be friends.
+
+
+### Video
+
+Signing up is super easy.
+You just type in the persons name,
+link their public profiles,
+and upload the conversations you have had together on Facebook, WhatsApp etc.
+You don't even need their permission!
+-- app: signup,upload
+
+Using Machine Learning on their data we build up an AI matching their personality,
+communication style, interests and preferences.
+Everything comes from the online data: likes, status updates, posted pictures and conversations.
+-- app: processing,personality sliders
+
+Of course you can also change the persons traits, to make them behave more to your liking.
+-- app: change sliders
+
+You can chat with your AI partner.
+It can smalltalk, support you when you are down and help you make decisions.
+-- app: chat, where to eat (hint: monetization,sponsored ad)
+
+Using face transfer algorithms, your partner can also send you new pictures of themselves.
+-- app chat, at the gym, working out (PIC)
+
+There is no limit to the possibilities.
+-- app chat, cencored/suggestive dirty/edgy pic
+
+So sign up today!
+
+## Outro
+
+-- Switch to reveal
+This is not a real startup (but it could have been)!
+Much of the technology is available today.
+
+- is it OK to build a digital representation of a person without their consent
+- who has got data about you that you are not comfortable with
+- who can use shared data, after you a relationship has ended, or someone has passed away
+
+
+## In-app ideas
+
+Exploring the system. What can I/it do
+Personalized. Nickname
+Status update. Doing right now
+Memories from the past
+Suggestions. Where to eat?
+
+
+What is the finale??
+Juust before taking it to far, suggestive
+

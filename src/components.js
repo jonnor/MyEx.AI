@@ -129,45 +129,28 @@ export class ChatApp extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { messages: [] };
+    this.state = { };
+
     this.sendHandler = this.sendHandler.bind(this);
-    
-
   }
 
-  sendHandler(message) {
-    const messageObject = {
-      username: this.props.username,
-      message
-    };
-   
-    // Show my own message
-    messageObject.fromMe = true;
-    this.addMessage(messageObject);
-
-    // Emit the message
-    this.props.onEvent('sendMessage', messageObject, this);
-  }
-
-  addMessage(message) {
-    // Append the message to the component state
-    const messages = this.state.messages;
-    messages.push(message);
-    this.setState({ messages });
+  sendHandler(m) {
+    this.props.onChatMessage(m);
   }
 
   render() {
     return (
       <div className="container">
-        <h3>React Chat App</h3>
-        <Messages messages={this.state.messages} />
+        <h3>My AI Partner</h3>
+        <Messages messages={this.props.messages} />
         <ChatInput onSend={this.sendHandler} />
       </div>
     );
   }
-
 }
+
 ChatApp.defaultProps = {
   username: 'Anonymous',
-  onEvent: (name, payload, sender) => { return false },
+  messages: [],
+  onChatMessage: (name, payload, sender) => { return false },
 };
