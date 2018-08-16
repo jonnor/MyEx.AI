@@ -6,13 +6,18 @@ import React from 'react';
 import {Messages,ChatInput,ChatApp} from './components.js';
 
 const scripts = {
-    'basic': require('json-loader!yaml-loader!../data/scripts/basic.yaml'),
-    'test': require('json-loader!yaml-loader!../data/scripts/test.yaml'),
+    'decisions': require('json-loader!yaml-loader!../data/scripts/decisions.yaml'),
+    'smalltalk': require('json-loader!yaml-loader!../data/scripts/smalltalk.yaml'),
+    'images': require('json-loader!yaml-loader!../data/scripts/images.yaml'),
 }
 
-
 // TODO:
-// Add names to chat lines
+// Add names to chat. Per message or on top
+// Support images in messages
+
+// Maybe
+// Support manually adding 
+// 
 
 function chatMessageFromScript(message, script) {
     const isUser = (message.role == 'user')
@@ -113,8 +118,9 @@ class App extends React.Component {
     return (
       <section className="username-container">
         <h1>AI Partner</h1>
-        <button onClick={(e) => this.runScript('basic', e)}>Basic</button>
-        <button onClick={(e) => this.runScript('test', e)}>Test</button>
+        <button onClick={(e) => this.runScript('decisions', e)}>Decisions</button>
+        <button onClick={(e) => this.runScript('images', e)}>Images</button>
+        <button onClick={(e) => this.runScript('smalltalk', e)}>Smalltalk</button>
       </section>
     );
   }

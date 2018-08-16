@@ -1,0 +1,18 @@
+names:
+  user: Jon
+  ai: Marianna
+messages:
+  -
+    role: user
+    text: Hi cutie
+  -
+    role: ai
+    text: Hey handsome! Whats up?
+  -
+    role: user
+    text: Just got back from work, miss you... What are you doing?
+  -
+    role: ai
+    text: At the gym!
+    image: 'selfie'
+

@@ -1,0 +1,14 @@
+names:
+  user: Jon
+  ai: Marianna
+messages:
+  -
+    role: user
+    text: Man I'm so hungry that I can't even decide what to eat....
+  -
+    role: ai
+    text: Honey, you push yourself too hard!
+  -
+    role: ai
+    text: The Italian place down the road is pretty nice right, why not there?
+    image: '(sponsored)'

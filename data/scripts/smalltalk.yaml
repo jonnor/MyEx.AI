@@ -1,0 +1,23 @@
+names:
+  user: Jon
+  ai: Marianna
+messages:
+  -
+    role: user
+    text: Hi?
+  -
+    role: ai
+    text: Hey handsome! Whats up?
+  -
+    role: user
+    text: I'm at work, bored...
+  -
+    role: ai
+    text: Remember the time we went to Croatia? That was a lot of fun
+    image: 'memory'
+  -
+    role: user
+    text: Yeah and weather was so nice. Not like here...
+  - 
+    role: ai
+    text: I'm sure it will be better next week!

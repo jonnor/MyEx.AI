@@ -140,13 +140,14 @@ Text: Narrator
 
 ## Intro
 
-Have you thought about what could be built with the data that we put online about ourself?
+We are putting more and more data about ourself and our relationships online.
+Have you thought about what one can build with this data?
 
-During this hackathon we built an AI that lets you create an Artificial Intelligence of a person.
+During this hackathon we built an app that lets you create
+an interactive Artificial Intelligence of a person.
 
-Maybe your girlfriend just break up with you? But you want to contiue the relationship.
-Or maybe the boy of your dreams only wanted to be friends.
-
+Maybe your girlfriend just break up with you? But you want to continue the relationship.
+Or maybe the boy of your dreams only wanted to be friends, and you want more.
 
 ### Video
 
@@ -157,10 +158,11 @@ and upload the conversations you have had together on Facebook, WhatsApp etc.
 You don't even need their permission!
 -- app: signup,upload
 
-Using Machine Learning on their data we build up an AI matching their personality,
+Using Machine Learning on their data we build up an AI matching their personality:
 communication style, interests and preferences.
 Everything comes from the online data: likes, status updates, posted pictures and conversations.
--- app: processing,personality sliders
+-- app: processing
+-- app: personality sliders
 
 Of course you can also change the persons traits, to make them behave more to your liking.
 -- app: change sliders
@@ -169,7 +171,8 @@ You can chat with your AI partner.
 It can smalltalk, support you when you are down and help you make decisions.
 -- app: chat, where to eat (hint: monetization,sponsored ad)
 
-Using face transfer algorithms, your partner can also send you new pictures of themselves.
+Your partner can also send you fresh pictures of themselves.
+We use transfer algorithms to map their face onto photos retrieved from the Internet
 -- app chat, at the gym, working out (PIC)
 
 There is no limit to the possibilities.
