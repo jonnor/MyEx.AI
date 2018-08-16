@@ -74,11 +74,16 @@ Friday 11.00.
 
 ## Content
 
+Google knows where you have been, everything you have ever searched and deleted. Managing to gain access to someone’s Google account lets you have a diary of everything that person has done. Knows your workout routine, how many steps you have made, every mail you ever sent and there is more.
+
+Facebook has an option to download all your information. It stores everything, from messages to your login location. 
+Facebook also stores what it think you might be interested in based off the things you have liked and what you and your friends talk about
+They also store every time you log into Facebook, where you logged in from, what time, and from what device.
 ...
 
 ## Related
 
-
+https://www.indy100.com/article/facebook-google-cambridge-analytica-dylan-curran-twitter-how-to-download-your-data-8275511
 * Chatbot of dead person/friend. Luca
 * AI replica of yourself. replika.ai
 * ..
