@@ -43,39 +43,41 @@ Bring people to informational/howto on personal data management.
 
 Milestones
 
-### M2: Draft ready
+### M2: Narrative ready
 Can be presented internally for feedback.
 Thurday 1930
 
-General
-
-* Find informational/howto resources on data/privacy management
+### M3: Draft ready
+Thursday 2400
 
 App
 
-* Add support for images in chat
-* Add an get-started screen. Name of user, upload data
+* Add images in chat
+* Normalize style across mockups.
 
 Video
 
-* S
-* Personality sliders mockup?
-* Initial demo videos recorded
+* Record initial demo videos recorded
 
 Presentation
 
-* Intro
-* Video, play button
-* Outro
+* Intro.
+What can be built with the data you put online?
+
+* Video.
+One or multiple?
+Put into a tablet
+* Outro.
+Reveal,questions
 
 
 ### M3: Presentation ready
 Can be presented to the world at conference.
-Is available on final domain.
 
 Friday 11.00.
 
-* Test on final domain
+### M4: Cleanups
+
 * Rename repo to reflect project title
 * Update README.md
 
@@ -141,7 +143,7 @@ Text: Narrator
 ## Intro
 
 We are putting more and more data about ourself and our relationships online.
-Have you thought about what one can build with this data?
+Have you thought about what one can build with this data? Beyond targeted ads etc
 
 During this hackathon we built an app that lets you create
 an interactive Artificial Intelligence of a person.
@@ -184,11 +186,46 @@ So sign up today!
 
 -- Switch to reveal
 This is not a real startup (but it could have been)!
-Much of the technology is available today.
+Much of the technology is available today, to some degree.
 
-- is it OK to build a digital representation of a person without their consent
-- who has got data about you that you are not comfortable with
-- who can use shared data, after you a relationship has ended, or someone has passed away
+- when is it OK to build a digital representation of a person without their consent
+- who can use shared data after you a relationship.
+Breakup, or someone has passed away
+- who has got data about you that you are not comfortable with.
+Exercise: Download your FB,WhatsApp data and look at the conversations with your close ones
+
+##  Feedback Stef Thurs
+Both should present
+Need to decide who says what, transition
+
+What is the punchline
+Delivery is very important
+
+Overall easy to follow
+Improve the punch
+
+Want a story
+Video of someone who breaks up with someone
+Upset, go to computer
+Relationship status change -> do you want to keep this relationship?
+go into app
+ -> 
+
+Generating. Font
+
+App bar? Personality
+Somehow modifying the person
+Etc picture
+
+Restaurant
+More personal
+
+Image gym
+More personal
+
+Consistency in style,gender
+
+Close the loop
 
 
 ## In-app ideas
