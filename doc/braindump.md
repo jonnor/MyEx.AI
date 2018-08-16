@@ -43,25 +43,24 @@ Bring people to informational/howto on personal data management.
 
 Milestones
 
-### M1: Skeleton webpage ready
+### M1: Skeleton app ready
 Shows concept ROUGHLY. End2end wireframes. Runs locally.
-Wednesday.
+Thursday 1400
 
-* Decide content structure
-* Setup app structure
-* Rough content available for each
+* Add intro screen. Name of user, upload data
+* Presentation: Slide with 'what do you think about this'
 * Find informational/howto resources on data/privacy management
-* Entire flow implemented
 
 
 ### M2: Draft ready
 Can be presented internally for feedback.
-Is available online.
-Thurday 16.00.
+Thurday 1800
 
-* Setup deploy to web
-* All content done
-* 
+* Add delay to message playback
+* In-app script done
+* Voiceover done
+* Initial video recorded
+* Website shows video
 
 ### M3: Presentation ready
 Can be presented to the world at conference.
@@ -111,7 +110,66 @@ Crytoigraphy toolkit for kids.
 Ask the question: Do you want this to be real?
 
 
-## Impl notes
+## Script ideas
+Video length. 60 seconds?
 
-photos: Array(1)
-  uri:  "messages/MariannaBrilliantova_72523643b2/photos/38256515_10160902122945413_1473622602315464704_n_10160902122040413.jpg"
+Problem
+Solution
+Demo
+Call-to-action
+Reveal
+
+
+Did your girlfriend just break up with you?
+Or maybe the boy of your dreams never wanted to be more than just a friend.
+
+Don't be lonely anymore!
+Use aipartner.app to create an Artificial Intelligence of the person.
+
+Signing up is super easy.
+You just type in the persons name,
+link their public profiles,
+and upload the conversations you have had together on Facebook, WhatsApp etc.
+You don't even need their permission!
+-- upload,processing
+
+From their data we build up an AI matching their personality.
+Using Machine Learning infer their communication style, their interests and preferences.
+Everything comes from the online data: likes, status updates, posted pictures and conversations.
+-- sliders
+
+Of course you can also change the persons traits, to make them behave more to your liking.
+-- change sliders 
+
+Via the app, you can chat with your AI partner.
+It can smalltalk, support you when you are down and help you make decisions.
+-- where to eat (hint: monetization,sponsored ad)
+
+Using face transfer algorithms, your partner can also send you new pictures of themselves.
+-- at the gym, working out
+
+There is no limit to the possibilities.
+-- Cencored dirty pic
+
+Sign up today!
+
+-- switch to reveal
+This is not a real startup, but it could have been!
+Much of the technology is available today.
+Learn more about protecting your online data and the state of Machine Learning at .... 
+
+
+
+
+## In-app ideas
+
+Exploring the system. What can I/it do
+Personalized. Nickname
+Status update. Doing right now
+Memories from the past
+Suggestions. Where to eat?
+
+
+What is the finale??
+Juust before taking it to far, suggestive
+
