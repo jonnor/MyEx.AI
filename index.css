@@ -16,11 +16,11 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
   border-radius: 2px;
   margin: 10px auto 30px;
   max-width: 38%;
-  padding: 50px 70px 70px 71px;
+  padding: 300px 70px 70px 71px;
 }
 
 .login-form .form-group {
-  margin-bottom:10px;
+  margin-bottom:100px;
 }
 .login-form{ text-align:center;}
 .forgot a {

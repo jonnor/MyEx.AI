@@ -15,4 +15,4 @@
     100% { transform: rotate(360deg); }
 }
 .analyse h2{ font-size:30px; margin:auto; left:600px; bottom: 200px;position:fixed;}
-.generate h2{ font-size:25px; margin:auto; left:450px; top: 100px; position:fixed;}
+.generate h2{ font-size:25px; margin:auto; left:600px; top: 100px; position:fixed;}
