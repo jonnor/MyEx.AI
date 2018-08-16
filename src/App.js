@@ -5,13 +5,16 @@ import React from 'react';
 
 import {Messages,ChatInput,ChatApp} from './components.js';
 
-const script = require('json-loader!yaml-loader!../data/scripts/basic.yaml');
+const scripts = {
+    'basic': require('json-loader!yaml-loader!../data/scripts/basic.yaml'),
+    'test': require('json-loader!yaml-loader!../data/scripts/test.yaml'),
+}
 
 
 // TODO:
-// Button to load/play different scripts
+// Add names to chat lines
 
-function chatMessageFromScript(message) {
+function chatMessageFromScript(message, script) {
     const isUser = (message.role == 'user')
 
     // TODO: also support images
@@ -49,28 +52,21 @@ function playbackScript(script, sendFunc, callback) {
 function handleEvent(name, payload, sender) {
     console.log('event', name, payload);
 
-
-    // FIXME: look up in props
-    const sendScriptMessage = (m) => {
-        sender.addMessage(chatMessageFromScript(m));
-    }
-
-    console.log('script play');
-    playbackScript(script, sendScriptMessage, () => {
-        console.log('script done');
-    })
-
 }
 
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { username: '' };
+    this.state = { playingscript: false, messages: [] };
 
     // Bind 'this' to event handlers. React ES6 does not do this by default
     this.usernameChangeHandler = this.usernameChangeHandler.bind(this);
     this.usernameSubmitHandler = this.usernameSubmitHandler.bind(this);
+
+
+    this.runScript = this.runScript.bind(this);
+    this.toStart = this.toStart.bind(this);
   }
 
   usernameChangeHandler(event) {
@@ -79,36 +75,52 @@ class App extends React.Component {
 
   usernameSubmitHandler(event) {
     event.preventDefault();
-    this.setState({ submitted: true, username: this.state.username });
+
+  }
+
+  runScript(scriptName) {
+    const script = scripts[scriptName];
+
+    this.setState({ playingscript: true });
+    console.log('script play');
+
+    const sendScriptMessage = (m) => {
+        var messages = Array.from(this.state.messages);
+        messages.push(chatMessageFromScript(m, script));
+        this.setState({ messages: messages });
+    }
+
+
+    playbackScript(script, sendScriptMessage, () => {
+        console.log('script done');
+    })
+
+  }
+
+  toStart() {
+    this.setState({playingscript: false, messages: []});
   }
 
   render() {
-    if (this.state.submitted) {
+    if (this.state.playingscript) {
       // Form was submitted, now show the main App
       return (
-        <ChatApp username={this.state.username} onEvent={this.props.onEvent}/>
+        <ChatApp username={this.state.username} messages={this.state.messages} onChatMessage={this.toStart}/>
       );
     }
 
     // Initial page load, show a simple login form
     return (
-      <form onSubmit={this.usernameSubmitHandler} className="username-container">
-        <h1>React Instant Chat</h1>
-        <div>
-          <input
-            type="text"
-            onChange={this.usernameChangeHandler}
-            placeholder="Enter a username..."
-            required />
-        </div>
-        <input type="submit" value="Submit" />
-      </form>
+      <section className="username-container">
+        <h1>AI Partner</h1>
+        <button onClick={(e) => this.runScript('basic', e)}>Basic</button>
+        <button onClick={(e) => this.runScript('test', e)}>Test</button>
+      </section>
     );
   }
 
 }
 App.defaultProps = {
-    //fbMessages: fbMessages,
     onEvent: handleEvent,
 };
 
