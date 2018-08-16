@@ -2,46 +2,46 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="./src/styles/common.css">
+
 <style>
-.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid blue;
-  border-bottom: 16px solid blue;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-  margin:auto;
-  left:630px;
-  top:300px;
-  position:fixed;
-}
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid blue;
+      border-bottom: 16px solid blue;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      margin:auto;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-.analyse h2{ font-size:25px; margin:auto; left:450px; bottom: 100px; position:fixed;}
-.generate h2{ font-size:25px; margin:auto; left:610px; top: 150px; position:fixed;}
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
 </style>
+
 </head>
 <body>
 
-<div class="generate">
-  <h2> Generating Profile </h2>
-</div>
+<h3>Processing data</h3>
+
 
 <div class="loader"></div>
-<div class="analyse">
 
-<h2>Analyzing 2498 private messages, 8113 tweets and 1244 Instagram photos</h2>
+<h4>Building Artificial Intelligence...</h4>
+<p>Analyzing 2498 private messages, 8113 tweets and 1244 Instagram photos</p>
 
-</div>
 </body>
 </html>

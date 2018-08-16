@@ -1,3 +1,4 @@
+require('./styles/common.css');
 require('./styles/App.css');
 require('./styles/Login.css');
 
