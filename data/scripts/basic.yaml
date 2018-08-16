@@ -1,0 +1,17 @@
+names:
+  user: Jon
+  ai: Marianna
+messages:
+  -
+    role: user
+    text: Hi?
+  -
+    role: bot
+    text: Hey handsome! Whats up?
+  -
+    role: user
+    text: I'm at work. What are you doing?
+  - 
+    role: bot
+    text: At the gym!!
+    image: 'TODO: selfie with face transfer'  
