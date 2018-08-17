@@ -25,10 +25,11 @@ function chatMessageFromScript(message, script) {
 
     // TODO: also support images
     const mes = {
-        name: isUser ? script.names.user : script.names.bot,
+        username: isUser ? script.names.user : script.names.ai,
         message: message.text,
         fromMe: isUser,
     };
+    console.log('m', mes)
     return mes;
 }
 

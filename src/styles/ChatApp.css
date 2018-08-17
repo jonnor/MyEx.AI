@@ -34,7 +34,7 @@
 }
 
 .message.from-me .message-body {
-  background-color: #af9570;
+  background-color: #110e2daa;
   color: white;
 }
 
@@ -45,7 +45,7 @@
   max-width: 80%;
   display: inline-block;
   padding: 20px;
-  background-color: #eee;
+  background-color: #c15353;
   border: 1px;
   border-radius: 5px;
   padding-right: 50px;
