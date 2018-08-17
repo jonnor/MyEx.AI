@@ -137,16 +137,42 @@ Ask the question: Do you want this to be real?
 Text: Narrator
 --: shown on screen
 
+Make it the real
+Announcement
+What is the purpose
+
+Faster to freaky
+
+It may have made 
+Make the transition clear
+-> Questions
+
+It could be created right now!
+
+
 ### Story
-Girl breaks up with guy.
-Guy would love to continue the relationship
+
+Background.
+
+We've a AI startup that has been in stealth mode for the last 6 months.
+Today we are proud to show you a first peak and demo of our product: MyEx.AI
+
+Who here has broken up with someone?
+
+Rick and Anna were together for a few years.
+However Anna was not happy and recently left Rick, feeling better off without him.
+
+Rick on the other hand thought things were going great, and wanted to continue the relationship.
+With MyEx.AI we give him that possibility.
+
+
 Facebook status changed
 Guy gets target ad (suggested post) for MyEx.AI
 
 
 ### Video
 
-Signing up is super easy.
+Getting started is is super easy.
 You just type in the persons name,
 link their public profiles,
 and upload the conversations you have had together on Facebook, WhatsApp etc.
@@ -167,26 +193,39 @@ It can smalltalk, support you when you are down and help you make decisions.
 -- app: chat, where to eat (hint: monetization,sponsored ad)
 
 Your partner can also send you fresh pictures of themselves.
-We use transfer algorithms to map their face onto photos retrieved from the Internet
+Using the face2face algorithm we map their face onto photos retrieved from the Internet
+from real personalities similar to your EX
 -- app chat, at the gym, working out (PIC)
 
-There is no limit to the possibilities.
--- app chat, cencored/suggestive dirty/edgy pic
 
-So next time someone breaks up with you,
-do like Rick, use MyEx.AI !
+So next time someone breaks up with you, consider using MyEx.AI to continue your relationship !
 
 ## Outro
 
+Wait, whaaaat?
+
 -- Switch to reveal
-This is not a real startup (but it could have been)!
+Don't worry. 
+This is NOT a real startup. We have not built this product or intend to.
+However
+
+(but it could have been)!
 Much of the technology is available today, to some degree.
 
-- when is it OK to build a digital representation of a person without their consent
-- who can use shared data after you a relationship.
-Breakup, or someone has passed away
-- who has got data about you that you are not comfortable with.
-Exercise: Download your FB,WhatsApp data and look at the conversations with your close ones
+Questions
+
+- who has got data about you that you are not comfortable with
+We think we are pretty data savy
+Did you look at your FB,WhatApp data recently?
+We did, and found things we were quite uncomfortable with
+
+- when is it OK to build a digital representation of a person
+Maybe a breakup is clear cut. Anna did not consent.
+
+But what if the person has passed away?
+
+
+
 
 ##  Feedback Stef Thurs
 Both should present
