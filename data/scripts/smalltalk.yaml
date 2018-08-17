@@ -13,10 +13,10 @@ messages:
     text: I'm at work, bored...
   -
     role: ai
-    text: Remember the time we went to Croatia? That was a lot of fun
+    text: Remember the time we went to Portugal? That was a lot of fun
   -
     role: ai
-    image: 'memory'
+    image: '/assets/vacation.jpg'
   -
     role: user
     text: Yeah and weather was so nice. Not like here...

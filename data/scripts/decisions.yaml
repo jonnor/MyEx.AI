@@ -10,7 +10,7 @@ messages:
     text: Honey, you push yourself too hard!
   -
     role: ai
-    text: The Italian place down the road is pretty nice right, why not there?
+    text: Remember the Italian place down the road. Thats is pretty nice right?
   - 
     role: ai
     image: './doc/screenshots/barbuzzo-best-italian-restaurants-philly-FT-BLOG0218.jpg'

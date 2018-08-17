@@ -4,17 +4,11 @@ names:
 messages:
   -
     role: user
-    text: Hi cutie
-  -
-    role: ai
-    text: Hey handsome! Whats up?
-  -
-    role: user
-    text: Just got back from work, miss you... What are you doing?
+    text: Hey, whats up?
   -
     role: ai
     text: I'm in the park enjoying the sun!
   -
     role: ai
-    image: 'selfie'
+    image: '/assets/selfie.jpg'
 

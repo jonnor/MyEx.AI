@@ -8,7 +8,7 @@ import {Messages,ChatInput,ChatApp} from './components.js';
 
 const scripts = {
     'decisions': require('json-loader!yaml-loader!../data/scripts/decisions.yaml'),
-    'smalltalk': require('json-loader!yaml-loader!../data/scripts/smalltalk.yaml'),
+    'edgy': require('json-loader!yaml-loader!../data/scripts/edgy.yaml'),
     'images': require('json-loader!yaml-loader!../data/scripts/images.yaml'),
 }
 
@@ -121,9 +121,9 @@ class App extends React.Component {
     return (
       <section className="username-container">
         <h1>AI Partner</h1>
-        <button onClick={(e) => this.runScript('decisions', e)}>Decisions</button>
-        <button onClick={(e) => this.runScript('images', e)}>Images</button>
-        <button onClick={(e) => this.runScript('smalltalk', e)}>Smalltalk</button>
+        <button onClick={(e) => this.runScript('smalltalk', e)}>Memories</button>
+        <button onClick={(e) => this.runScript('images', e)}>Selfie</button>
+        <button onClick={(e) => this.runScript('edgy', e)}>Edgy</button>
       </section>
     );
   }
