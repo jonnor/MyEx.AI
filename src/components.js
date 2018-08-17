@@ -75,14 +75,26 @@ export class Message extends React.Component {
     // Was the message sent by the current user. If so, add a css class
     const fromMe = this.props.fromMe ? 'from-me' : '';
 
+    const textBody = (
+      <div className='message-body'>
+        { this.props.message }
+      </div>
+    );
+    const imageBody = (
+      <div className='message-body'>
+        <img src={ this.props.image }></img> 
+      </div>
+    )
+    const body = (this.props.image) ? imageBody : textBody;
+
+    console.log('bb', this.props.image, body);
+
     return (
       <div className={`message ${fromMe}`}>
         <div className='username'>
           { this.props.username }
         </div>
-        <div className='message-body'>
-          { this.props.message }
-        </div>
+        {body}
       </div>
     );
   }
@@ -91,6 +103,7 @@ export class Message extends React.Component {
 Message.defaultProps = {
   message: '',
   username: '',
+  image: '',
   fromMe: false
 };
 
@@ -109,6 +122,7 @@ export class Messages extends React.Component {
             key={i}
             username={message.username}
             message={message.message}
+            image={message.image}
             fromMe={message.fromMe} />
         );
       });
@@ -141,7 +155,7 @@ export class ChatApp extends React.Component {
   render() {
     return (
       <div className="container">
-        <h3>My AI Partner</h3>
+        <h3>Chat with Anna</h3>
         <Messages messages={this.props.messages} />
         <ChatInput onSend={this.sendHandler} />
       </div>

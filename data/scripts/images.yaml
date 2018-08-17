@@ -1,6 +1,6 @@
 names:
-  user: Jon
-  ai: Marianna
+  user: Rick
+  ai: Anna
 messages:
   -
     role: user
@@ -13,6 +13,8 @@ messages:
     text: Just got back from work, miss you... What are you doing?
   -
     role: ai
-    text: At the gym!
+    text: I'm in the park enjoying the sun!
+  -
+    role: ai
     image: 'selfie'
 

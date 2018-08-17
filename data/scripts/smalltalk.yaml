@@ -1,6 +1,6 @@
 names:
-  user: Jon
-  ai: Marianna
+  user: Rick
+  ai: Anna
 messages:
   -
     role: user
@@ -14,6 +14,8 @@ messages:
   -
     role: ai
     text: Remember the time we went to Croatia? That was a lot of fun
+  -
+    role: ai
     image: 'memory'
   -
     role: user

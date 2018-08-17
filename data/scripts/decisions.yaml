@@ -1,6 +1,6 @@
 names:
-  user: Jon
-  ai: Marianna
+  user: Rick
+  ai: Anna
 messages:
   -
     role: user
@@ -11,4 +11,6 @@ messages:
   -
     role: ai
     text: The Italian place down the road is pretty nice right, why not there?
-    image: '(sponsored)'
+  - 
+    role: ai
+    image: './doc/screenshots/barbuzzo-best-italian-restaurants-philly-FT-BLOG0218.jpg'

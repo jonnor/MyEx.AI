@@ -27,6 +27,7 @@ function chatMessageFromScript(message, script) {
     const mes = {
         username: isUser ? script.names.user : script.names.ai,
         message: message.text,
+        image: message.image,
         fromMe: isUser,
     };
     console.log('m', mes)
