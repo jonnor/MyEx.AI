@@ -29,15 +29,30 @@
     </fieldset>
 
 
-    <fieldset>
+    <fieldset id='private'>
         <legend>Private conversations</legend>
 
-        <label>Facebook</label><input type="file" class="upload" />
-        <label>WhatsApp</label><input type="file" class="upload" />
-        <label>Telegram</label><input type="file" class="upload" />
+        <label class='up-label'>Facebook</label>
+        <div class="upload-btn-wrapper">
+          <button class="btn">Upload</button>
+          <input type="file" name="myfile" />
+        </div>
+
+        <label class='up-label'>WhatsApp</label>
+        <div class="upload-btn-wrapper">
+          <button class="btn">Upload</button>
+          <input type="file" name="myfile" />
+        </div>
+
+        <label class='up-label'>Telegram</label>
+        <div class="upload-btn-wrapper">
+          <button class="btn">Upload</button>
+          <input type="file" name="myfile" />
+        </div>
+
     </fieldset>
     
-    <button type="submit" class="btn btn-primary">Create A.I.</button>
+    <button type="submit" class="btn-primary">Create A.I.</button>
   </form>
 
 </html>

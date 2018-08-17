@@ -12,8 +12,8 @@ fieldset legend {
 }
 
 .main-div .form-control {
-  height: 50px;
-  line-height: 50px;
+  height: 30px;
+  line-height: 30px;
 
   background: #f7f7f7 none repeat scroll 0 0;
   border: 1px solid #d4d4d4;
@@ -29,20 +29,49 @@ fieldset legend {
   max-width: 40%;
 }
 
-.btn.btn-primary {
-  background: #f0ad4e none repeat scroll 0 0;
-  border-color: #f0ad4e;
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.up-label {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+  border: 2px solid #c15353;
+  color: #c15353;
+  opacity: 30%;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+}
+
+.btn-primary {
+  background: #c15353 none repeat scroll 0 0;
+  border-color: #c15353;
+  border-radius: 5px;
   color: #ffffff;
   font-size: 14px;
-  width: 100%;
+  width: 80%;
   height: 50px;
+  display: block;
   line-height: 50px;
-  padding: 0;
-}
-.btn.btn-primary2 {
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0;
 }
 
@@ -51,18 +80,4 @@ fieldset legend {
     overflow: hidden;
     margin: 10px;
 }
-/*
-
-.fileUpload input.upload {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    cursor: pointer;
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
-*/
 
