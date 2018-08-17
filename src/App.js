@@ -7,7 +7,7 @@ import React from 'react';
 import {Messages,ChatInput,ChatApp} from './components.js';
 
 const scripts = {
-    'decisions': require('json-loader!yaml-loader!../data/scripts/decisions.yaml'),
+    'smalltalk': require('json-loader!yaml-loader!../data/scripts/smalltalk.yaml'),
     'edgy': require('json-loader!yaml-loader!../data/scripts/edgy.yaml'),
     'images': require('json-loader!yaml-loader!../data/scripts/images.yaml'),
 }

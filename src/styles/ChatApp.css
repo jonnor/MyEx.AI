@@ -51,6 +51,11 @@
   padding-right: 50px;
 }
 
+.message-body img {
+  max-height: 40%;
+  max-width: 70%;
+}
+
 .username {
   font-weight: bold;
   font-size: 0.9rem;

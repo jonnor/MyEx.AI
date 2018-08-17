@@ -10,5 +10,5 @@ messages:
     text: I'm in the park enjoying the sun!
   -
     role: ai
-    image: '/assets/selfie.jpg'
+    image: '/assets/selfie.jpeg'
 

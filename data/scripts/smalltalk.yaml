@@ -16,7 +16,7 @@ messages:
     text: Remember the time we went to Portugal? That was a lot of fun
   -
     role: ai
-    image: '/assets/vacation.jpg'
+    image: '/assets/vacation.jpeg'
   -
     role: user
     text: Yeah and weather was so nice. Not like here...
