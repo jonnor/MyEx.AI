@@ -43,38 +43,35 @@ Bring people to informational/howto on personal data management.
 
 Milestones
 
-### M2: Narrative ready
-Can be presented internally for feedback.
-Thurday 1930
-
 ### M3: Draft ready
-Thursday 2400
+Thursday 1000
 
 App
 
+* Use colors,font from style
+* Try out dark style.
+* Add avatar to chat
 * Add images in chat
-* Normalize style across mockups.
 
-Video
+Demo
 
-* Record initial demo videos recorded
+* Update all screenshots
+* Record initial demo videos
 
 Presentation
 
-* Intro.
-What can be built with the data you put online?
-
 * Video.
 One or multiple?
-Put into a tablet
+Put into a tablet frame?
 * Outro.
 Reveal,questions
 
 
 ### M3: Presentation ready
+Presentation delivered to Jess.
 Can be presented to the world at conference.
 
-Friday 11.00.
+Friday 13.00.
 
 ### M4: Cleanups
 
@@ -176,7 +173,8 @@ We use transfer algorithms to map their face onto photos retrieved from the Inte
 There is no limit to the possibilities.
 -- app chat, cencored/suggestive dirty/edgy pic
 
-So sign up today!
+So next time someone breaks up with you,
+do like Rick, use MyEx.AI !
 
 ## Outro
 
@@ -237,4 +235,12 @@ Suggestions. Where to eat?
 
 What is the finale??
 Juust before taking it to far, suggestive
+
+## Post-workshop ideas
+Make a tool that lets users scan their FB,WhatApp conversations for sensitive data.
+Intimate,embarrasing,secrets.
+To show them that maybe they are not as careful as they like to think.
+
+Make a more polished 'launch video'. Kickstarter style
+
 
