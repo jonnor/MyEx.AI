@@ -1,5 +1,9 @@
-.fieldset {
-    padding: 20px;
+fieldset {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 0px;
 }
 
 .profilepic {

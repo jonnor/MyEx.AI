@@ -6,45 +6,38 @@
     <title>MyEx.AI</title>
 
     <link rel="stylesheet" href="./src/styles/common.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./dataentry.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 
   </head>
 
   <body>
-  <h3>Load data</h3>
+  <h3>Add data</h3>
 
-  <div class="container">
-  <div class="login-form">
-  <div class="main-div">
-    <div class="panel">
+  <form class="main-div">
 
-     </div>
-
-    <div class="form-group">
+    <fieldset class="form-group">
+        <legend>Name</legend>
         <input type="email" class="form-control" id="inputEmail" placeholder="Name">
-    </div>
+    </fieldset>
 
-     <h2> Social media profiles </h2>
-      <form id="social">
+    <fieldset>
+        <legend>Social media profiles</legend>
+        <label>Facebook</label><input type="email" class="form-control" id="inputEmail" placeholder="Facebook ID">
+        <label>Twitter</label><input type="password" class="form-control" id="inputPassword" placeholder="Twitter ID">
+        <label>Instagram</label><input type="password" class="form-control" id="inputPassword" placeholder="Instagram ID">
+    </fieldset>
 
-        <div class="form-group">
-            <input type="email" class="form-control" id="inputEmail" placeholder="Facebook ID">
-        </div>
-        <div class="form-group">
-            <input type="password" class="form-control" id="inputPassword" placeholder="Twitter ID">
 
-        </div>
+    <fieldset>
+        <legend>Private conversations</legend>
 
-        <div class="fileUpload btn btn-primary2">
+        <label>Facebook</label><input type="file" class="upload" />
+        <label>WhatsApp</label><input type="file" class="upload" />
+        <label>Telegram</label><input type="file" class="upload" />
+    </fieldset>
+    
+    <button type="submit" class="btn btn-primary">Create A.I.</button>
+  </form>
 
-            <input type="file" class="upload" />
-        </div>
-        
-        <button type="submit" class="btn btn-primary">Create</button>
-
-      </form>
-      </div>
-
-  </div>
 </html>

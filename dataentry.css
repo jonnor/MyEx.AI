@@ -1,37 +1,35 @@
 
-.form-heading { color:#fff; font-size:23px;}
+fieldset {
+    border: 0px;
+}
 
-.panel h2 { color:#444444; font-style: italic; font-size:18px; margin:0 0 8px 0;}
+input {
+    width: 100%;
+}
 
-.panel p { color:#777777;  font-size:14px; line-height:24px;}
+fieldset legend {
+    font-size: 20px;
+}
 
 .main-div .form-control {
+  height: 50px;
+  line-height: 50px;
+
   background: #f7f7f7 none repeat scroll 0 0;
   border: 1px solid #d4d4d4;
   border-radius: 4px;
-  font-size: 14px;
-  height: 50px;
-  line-height: 50px;
 }
+
 .main-div {
   background: #ffffff none repeat scroll 0 0;
   border-radius: 2px;
-  margin: 10px auto 30px;
-  max-width: 38%;
-  padding: 50px 70px 70px 71px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  max-width: 40%;
 }
 
-.login-form .form-group {
-  margin-bottom:3px;
-}
-.login-form{ text-align:center;}
-
-.forgot a {
-  color: #777777;
-  font-size: 14px;
-  text-decoration: underline;
-}
-.login-form  .btn.btn-primary {
+.btn.btn-primary {
   background: #f0ad4e none repeat scroll 0 0;
   border-color: #f0ad4e;
   color: #ffffff;
@@ -41,29 +39,20 @@
   line-height: 50px;
   padding: 0;
 }
-.login-form  .btn.btn-primary2 {
+.btn.btn-primary2 {
   width: 100%;
   height: 50px;
   line-height: 50px;
   padding: 0;
 }
-.forgot {
-  text-align: left; margin-bottom:30px;
-}
-.botto-text {
-  font-style: oblique;
-  color: #ffffff;
-  font-size: 19px;
-  margin: auto;
-}
 
-.back { text-align: left; margin-top:10px;}
-.back a {color: #444444; font-size: 13px;text-decoration: none;}
 .fileUpload {
     position: relative;
     overflow: hidden;
     margin: 10px;
 }
+/*
+
 .fileUpload input.upload {
     position: absolute;
     top: 0;
@@ -75,3 +64,5 @@
     opacity: 0;
     filter: alpha(opacity=0);
 }
+*/
+
