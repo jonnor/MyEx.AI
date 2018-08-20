@@ -25,8 +25,14 @@ under the subtheme 'Immortality'.
 
 Adelina Badea, [Jasnam Sidhu](https://twitter.com/jasnam_sidhu), and [Jon Nordby](http://jonnor.com)
 
+## Presentation
+
+    TODO: link video recording when available
+
+[Presentation notes](./doc/presentation.md)
+
 ## Concept app
-Just built to illustrate the idea. No real functionality.
+Just built to illustrate the idea and support the narrative of the presentation. No real functionality.
 
 ![Concept app screenshot](./doc/personality-chat.png)
 
@@ -70,4 +76,4 @@ Tool ideally assists in deleting the content as well. But need to make clear tha
 conversation participants don't have a copy/backup.
 
 ## More notes
-See [presentation](./doc/presentation.md) and [braindump](./doc/braindump.md)
+See [braindump](./doc/braindump.md)
