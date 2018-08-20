@@ -1,8 +1,10 @@
 
 # MyEx.AI
 
-A (fake) startup and demo app for building an Articifial Intelligence of your ex-partner,
+A (fake) startup and app for building an Articifial Intelligence of your ex-partner,
 using their public social media and private conversations you have had.
+
+[Logo banner](./doc/logo-banner-h200.png)
 
 Purpose was to rise awareness of
 
@@ -23,11 +25,16 @@ under the subtheme 'Immortality'.
 
 Adelina Badea, [Jasnam Sidhu](https://twitter.com/jasnam_sidhu), and [Jon Nordby](http://jonnor.com)
 
-## Setup
+## Concept app
+Just built to illustrate the idea. No real functionality.
+
+[Concept app screenshot](./doc/personality-chat.png)
+
+### Setup
 
     npm install
 
-## Run
+### Run
 
     # Chat with conversations played back from ./data/scripts/
     npm start
@@ -37,16 +44,19 @@ Adelina Badea, [Jasnam Sidhu](https://twitter.com/jasnam_sidhu), and [Jon Nordby
     chromium dataentry.html
     chromium processing.html
 
-## More notes
-See [presentation](./doc/presentation.md) and [braindump](./doc/braindump.md)
 
-## What we Learned
 
+## Learnings
+
+### Facebook API lockdown
 Facebook has locked down API access for third-party apps considerably.
-All apps that want to access anything but name,accountId must go through review.
+All apps that want to access anything but name,accountId must go through review,
+including a screencast for each feature using a particular permission.
 No (new) apps can access the Messenger inbox.
 
-## Possible future steps
+## Further work
+NOT interested in developing this as a real app.
+However, might be interested in:
 
 ### Tool for detecting sensitive data
 Make a tool that lets users scan their FB,WhatApp conversations for sensitive data.
@@ -56,5 +66,8 @@ Could be things that are intimate,embarrasing,secret.
 
 Scanning should happen client-side in the users browser, so that it can be verified that no personal is collected.
 
-Tool ideally assists in deleting the content.
+Tool ideally assists in deleting the content as well. But need to make clear that there is no guarantee other
+conversation participants don't have a copy/backup.
 
+## More notes
+See [presentation](./doc/presentation.md) and [braindump](./doc/braindump.md)
