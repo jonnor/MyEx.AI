@@ -4,7 +4,7 @@
 A (fake) startup and app for building an Articifial Intelligence of your ex-partner,
 using their public social media and private conversations you have had.
 
-[Logo banner](./doc/logo-banner-h200.png)
+![Logo banner](./doc/logo-banner-h200.png)
 
 Purpose was to rise awareness of
 
@@ -28,7 +28,7 @@ Adelina Badea, [Jasnam Sidhu](https://twitter.com/jasnam_sidhu), and [Jon Nordby
 ## Concept app
 Just built to illustrate the idea. No real functionality.
 
-[Concept app screenshot](./doc/personality-chat.png)
+![Concept app screenshot](./doc/personality-chat.png)
 
 ### Setup
 
